@@ -6,9 +6,8 @@ import pickle
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.modify']
 
-# Spammy keywords you want to filter out
-SPAM_KEYWORDS = ["fuck", "hot", "hot ladies", "onlyfans", "nude", "xxx", 
-    "CarShield","sex", "🔞", "🍆", "🍑", "🍌", "👅","💋","Nexxt","Reddit","Harbor Freight","United_Healthcare","United-Healthcare","Mini Jeep","Lowe's"]
+# Spam keywords you want to filter out
+SPAM_KEYWORDS = [ "CarShield", "Nexxt","Reddit","Harbor Freight","United_Healthcare","United-Healthcare","Mini Jeep","Lowe's"]
 
 def authenticate():
     creds = None
